@@ -30,3 +30,14 @@
   left: 15px;
   bottom: 15px;
 }
+
+.nav__notification-ellipsis {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  display: flex;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 26px;
+  left: 30px;
+}
