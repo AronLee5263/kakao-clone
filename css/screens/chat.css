@@ -8,6 +8,7 @@ body::-webkit-scrollbar-thumb {
   background: #45454541;
   border-radius: 10px;
 }
+
 #chat-screen {
   background-color: #abc1d1;
   height: 11000vh;
@@ -53,6 +54,7 @@ body::-webkit-scrollbar-thumb {
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .message-row img {
@@ -85,4 +87,20 @@ body::-webkit-scrollbar-thumb {
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
 }
