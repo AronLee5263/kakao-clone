@@ -1,4 +1,4 @@
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 1.5vh;
   background-color: #abc1d1;
 }
@@ -7,11 +7,11 @@ body::-webkit-scrollbar-thumb {
   height: 5%;
   background: #45454541;
   border-radius: 10px;
-}
+} */
 
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 1100vh;
 }
 
 #chat-screen .alt-header,
