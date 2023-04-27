@@ -60,14 +60,20 @@
 /* 화면 전체의 중간에 오고 싶으니까 body 기준으로 하기. */
 
 .splash-screen__title {
-  /* background-color: #3c1e1e; */
   /* padding: 30px; */
-  font-size: 25px;
-  color: var(--yellow);
 
   position: absolute;
-  top: 50%;
+  font-size: 25px;
+  color: var(--yellow);
+  font-weight: 600;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  /* top: 50%;
   left: 50%;
   margin-left: -43px;
-  margin-top: -16px;
+  margin-top: -16px; */
 }
