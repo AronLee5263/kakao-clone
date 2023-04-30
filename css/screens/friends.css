@@ -60,30 +60,11 @@
   animation-delay: 1s;
 }
 
-/* #splash-screen fas fa-comment {
-  position: relative;
-} */
-
-/* 화면 전체의 중간에 오고 싶으니까 body 기준으로 하기. */
-
 .splash-screen__title {
-  /* padding: 30px; */
-
-  position: absolute;
-  font-size: 25px;
+  position: fixed;
   color: var(--yellow);
+  font-size: 25px;
   font-weight: 600;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  margin-top: -4px;
-  margin-right: -5px;
-
-  /* top: 50%;
-  left: 50%;
-  margin-left: -43px;
-  margin-top: -16px; */
+  padding-left: 3px;
+  padding-bottom: 5px;
 }
-/* new main 브랜치 시작 */
