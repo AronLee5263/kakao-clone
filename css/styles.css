@@ -30,4 +30,7 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+  padding-top: 80px;
+  background-color: white;
+  /* margin-top: 100px; */
 }
