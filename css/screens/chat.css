@@ -15,7 +15,7 @@ body::-webkit-scrollbar-thumb {
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-  top: 0;
+  top: 10;
   position: fixed;
   width: 100%;
   background-color: #abc1d1;
@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main-chat {
-  margin-top: 140px;
+  margin: var(--chat-screen-margin);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,8 @@ body::-webkit-scrollbar-thumb {
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
-  margin-bottom: 25px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 @keyframes message-row {
