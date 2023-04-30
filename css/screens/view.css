@@ -1,3 +1,17 @@
+.testtest {
+  background-color: tomato;
+  padding: 20px;
+  /* margin: 10px; */
+
+  border: solid 10px blue;
+  /* position: fixed; */
+
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
