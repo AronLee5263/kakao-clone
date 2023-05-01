@@ -3,7 +3,7 @@
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --gray-color: rgba(0, 0, 0, 0.5);
-  --screen-header-padding: 10px 25px;
-  --screen-header-margin-top: 22px;
+  --screen-header-padding: 10px 20px;
+  --screen-header-margin-top: 30px;
   --chat-screen-margin: 50px 10px 0 10px;
 }
