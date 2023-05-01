@@ -43,6 +43,10 @@
 .open-post__hashtags {
   text-transform: uppercase;
   opacity: 0.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 180px;
 }
 
 .open-post__members {
